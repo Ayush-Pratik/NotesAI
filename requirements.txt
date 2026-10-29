@@ -1,0 +1,32 @@
+# NotesAI — AI-Powered Notes Summarizer and Question Generator
+# Install with: pip install -r requirements.txt
+# Python 3.10 or 3.11 recommended
+
+# ── Core UI ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0,<2.0.0
+
+# ── AI / ML ──────────────────────────────────────────────────────────────────
+torch>=2.2.0
+transformers>=4.44.0,<5.0.0
+accelerate>=0.30.0
+sentencepiece>=0.2.0
+tokenizers>=0.19.0
+huggingface_hub>=0.23.0
+safetensors>=0.4.3
+protobuf>=4.25.0
+
+# ── Document processing ───────────────────────────────────────────────────────
+PyMuPDF>=1.24.0
+
+# ── PDF generation ────────────────────────────────────────────────────────────
+reportlab>=4.2.0
+
+# ── Validation ────────────────────────────────────────────────────────────────
+pydantic>=2.7.0
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=8.2.0
+pytest-mock>=3.14.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+numpy>=1.26.0
